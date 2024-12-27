@@ -66,7 +66,7 @@ git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
 
 
-git clone https://github.com/kiddin9/openwrt-packages
+git clone https://github.com/haiibo/openwrt-packages
 shopt -s extglob
 rm -rf openwrt-packages/!(luci-app-netdata|luci-app-smartdns|luci-app-upnp)
 cp -r openwrt-packages/{luci-app-netdata,luci-app-smartdns,luci-app-upnp} package/
