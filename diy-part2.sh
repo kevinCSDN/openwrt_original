@@ -29,6 +29,9 @@
 rm -rf small/luci-app-passwall
 git clone -b main --depth 1 https://github.com/bcseputetto/openwrt-passwall.git small/luci-app-passwall
 
+rm -rf package/feeds/small/v2ray-geodata
+rm -rf package/feeds/small/luci-app-bypass
+rm -rf package/feeds/small/luci-app-ssr-plus
 
 #git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 #git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
